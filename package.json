@@ -1,0 +1,16 @@
+{
+    "name": "wed-blog-main",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc && node .bin/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "koa": "^2.11.0"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.11.1"
+    }
+}
